@@ -1,0 +1,88 @@
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+  }
+  #contato {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    display: flex;
+    display: inline-block;
+  }
+  #contato:hover {
+    background-color: rgb(213, 235, 255);
+    transition: 0.7s all; 
+  }
+#tituloBranco {
+    color: white;
+}
+  .a {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+    margin: 5px;
+    font-size: large;
+    }
+.projetosBase {
+    display: flex;
+    flex-direction: column;
+    }
+
+#projetos {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    background-color: rgb(51, 103, 128);
+    padding: 1rem;
+    }
+
+    .imagemDaLoja {
+        width: 60vw;
+        border: 2px solid rgb(51, 103, 128);
+         
+        }
+         
+        #imagemDaLoja:hover {
+          transform: scale(1.01);
+          transition: 0.1s all;
+        }
+         
+        .imagemGithub {
+        width: 18rem;
+        }
+         
+        .projetos-imagens {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        align-items: center;
+        margin-bottom: 1rem;
+        }
+         
+        .titleLoja {
+        font-size: 30px;
+        margin-bottom: 1rem;
+        margin-left: 10px;
+        }
+         
+        #titleGithub {
+        max-width: 15rem;
+        text-align: center;
+        margin-left: 2rem;
+        margin-bottom: 5px;
+        }
+
+        header {
+            margin: 0;
+        }
+
+        .descricao {
+            max-width: 50rem;
+            font-size: 18px;
+            line-height: 2rem;
+            margin-left: 1rem;
+            margin-bottom: 2rem;
+          }          
